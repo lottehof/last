@@ -1,9 +1,9 @@
 <template>
   <div class="app-container">
 
-       <TheHeader/>
+       <!-- <TheHeader/>
 
-       <TheSideNav/>
+       <TheSideNav/> -->
 
        <div class="app-content">
            <nuxt />
