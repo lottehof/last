@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="sidenav-container">
 
         <div v-if="isSidebar" class="backdrop" @click="hideSidebar"></div>
@@ -97,4 +97,4 @@ img{
 
       }
     }
-</style>
+</style> -->

@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <header>
       <div class="drawer-toggle" role="button" @click="$store.dispatch('nav/toggleSidebar')">
           <div class="bar"></div>
@@ -111,4 +111,4 @@
             height: 30%;
         }
     } */
-</style>
+</style> -->
