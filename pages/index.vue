@@ -34,8 +34,6 @@ import Instagram from '@/components/Instagram/Instagram'
 import FooterMenu from '@/components/Footer/FooterMenu'
 import Footer from '@/components/Footer/Footer'
 import Information from '@/components/Information/Information'
-import TheHeader from '~/components/Menu/TheHeader'
-import TheSideNav from '~/components/Menu/TheSideNav'
 export default {
   components: {
     History,
