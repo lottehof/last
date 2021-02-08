@@ -2,7 +2,7 @@
   <div class="total">
     <div class="start">
       <div class="test">
-          <img src="@/assets/img/logo2.png" alt="logo" class="logo">
+          <!-- <img src="@/assets/img/logo2.png" alt="logo" class="logo"> -->
 
         </div>
 
