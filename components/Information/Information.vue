@@ -2,32 +2,40 @@
   <div class="information-boxes">
     <div class="information-box-content">
       <figure>
-        <a href="#"><img src="@/assets/img/nieuws.jpg" alt="nieuws"></a>
-        <figcaption><a href="#">Nieuws</a></figcaption>
+        <a href="#">
+          <!-- <img src="@/assets/img/nieuws.jpg" alt="nieuws"> -->
+        </a>
+        <!-- <figcaption><a href="#">Nieuws</a></figcaption> -->
       </figure>
 
 
     </div>
     <div class="information-box-content">
       <figure>
-      <a href="#"><img src="@/assets/img/winterstalling.png" alt="Winterstalling"></a>
-      <figcaption><a href="#">Winterstalling</a></figcaption>
+      <a href="#">
+        <!-- <img src="@/assets/img/winterstalling.png" alt="Winterstalling"> -->
+      </a>
+      <!-- <figcaption><a href="#">Winterstalling</a></figcaption> -->
       </figure>
 
 
     </div>
     <div class="information-box-content">
       <figure>
-        <a href="#"><img src="@/assets/img/occasion.jpg" alt="Occasions"></a>
-        <figcaption><a href="#">Occasions</a></figcaption>
+        <a href="#">
+          <!-- <img src="@/assets/img/occasion.jpg" alt="Occasions"> -->
+        </a>
+        <!-- <figcaption><a href="#">Occasions</a></figcaption> -->
       </figure>
 
 
     </div>
     <div class="information-box-content">
       <figure>
-          <a href="#"><img src="@/assets/img/werf.jpeg" alt="De werf"></a>
-          <figcaption><a href="#">De Werf</a></figcaption>
+          <a href="#">
+            <!-- <img src="@/assets/img/werf.jpeg" alt="De werf"> -->
+          </a>
+          <!-- <figcaption><a href="#">De Werf</a></figcaption> -->
       </figure>
 
 
@@ -48,9 +56,12 @@ img{
   width: 100%;
   height: 300px;
   padding: 10px 20px;
+
 }
 figure{
   width: 100%;
+  background-color: #cbcbc5;
+  height: 300px;
 }
 figcaption{
   text-transform: uppercase;
@@ -63,6 +74,7 @@ figcaption{
   letter-spacing: 0.02px;
   color: #3d4333;
   padding: 0px 20px;
+  bottom: 0;
 }
 a{
   color: #3d4333;
@@ -77,11 +89,13 @@ a{
 
 @media (min-width: 768px) {
   .information-boxes{
+    width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     grid-template-rows: repeat(2, minmax(0, 1fr));
     grid-gap: 8px;
+
   }
   .information-boxes > .information-box-content:nth-of-type(1){
     grid-column: 1 / span 2;

@@ -9,7 +9,6 @@
                  Sign up for our newsletter
                </div>
                <form>
-
               <div class="group">
                 <input type="text" required>
                 <span class="highlight"></span>
@@ -23,6 +22,7 @@
                 <span class="bar"></span>
                 <label>Email address</label>
               </div>
+
 
             </form>
 
@@ -149,6 +149,7 @@ ul{
 .group 			  {
   position:relative;
   margin-bottom:20px;
+  width: 210px;
 
 
 }
@@ -292,6 +293,11 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 }
 
 @media (min-width:1200px) {
+  form{
+    display: flex;
+    margin: 0;
+    width: 100px;
+}
   .footer-menu{
    display: grid;
    grid-template-columns: repeat(6, minmax(0, 1fr));

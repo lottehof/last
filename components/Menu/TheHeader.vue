@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
     <header>
       <div class="drawer-toggle" role="button" @click="$store.dispatch('nav/toggleSidebar')">
           <div class="bar"></div>
@@ -10,7 +10,6 @@
               Menu
             </nuxt-link>
         </div>
-        <img src="@/assets/img/logo2.png" alt="logo" class="logo">
 
 
 
@@ -25,21 +24,20 @@
 </script>
 
 <style scoped>
-.logo{
-  width: 50%;
-  margin-right: 30px;
-  height: auto;
 
-}
     header{
-        display: flex;
-        /* grid-template: 90px / auto 1fr 1fr; */
-        align-items: center;
-        background-color: black;
-        background-position: top;
-        padding: 0 16px;
-        height: 100px;
-        width: 100vw;
+      position: absolute;
+      display: flex;
+      /* grid-template: 90px / auto 1fr 1fr; */
+      align-items: center;
+      background-color: transparent;
+      background-position: top;
+      padding: 0 16px;
+      height: 100px;
+      width: 100vw;
+        /* background-image: url("~assets/img/bg2.jpg");
+        background-position: center;
+        background-size: cover; */
 
     }
     header:nth-child{
@@ -97,6 +95,9 @@
         margin-left: auto;
         margin-right: auto;
       }
+      .drawer-toggle{
+        margin-left: 35px;
+      }
 
     }
 
@@ -110,4 +111,4 @@
             height: 30%;
         }
     } */
-</style> -->
+</style>
